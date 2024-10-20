@@ -4,7 +4,7 @@ const colorsContainer = document.getElementById('colors-container')
 let hexArray=[]
 const colorCount = 11
 
-alert(`Click on the hex color it to clipboard`)
+alert(`Click on the hex color to copy it to clipboard`)
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault()
