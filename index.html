@@ -12,8 +12,8 @@
 <body>
     <div class="container">
         <form id="main-form" action="">
-            <input type="color" name="color" id="color">
-            <select name="scheme" id="scheme">
+            <input class="allinputs" type="color" name="color" id="color">
+            <select class="allinputs scheme" name="scheme" id="scheme">
                 <option value="monochrome">monochrome</option>
                 <option value="monochrome-dark">monochrome-dark</option>
                 <option value="monochrome-light">monochrome-light</option>
@@ -23,8 +23,13 @@
                 <option value="triad">triad</option>
                 <option value="quad">quad</option>
             </select>
-            <button type="submit" id="submit">Get Color Scheme</button>
+            <button class="allinputs" type="submit" id="submit">Get Color Scheme</button>
         </form>
+        <div class="colors-container" id="colors-container">
+            <h2>Get a color scheme from The Color API</h2>
+        </div>
+
+        
     </div>
 
     

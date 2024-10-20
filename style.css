@@ -6,9 +6,67 @@ body{
     margin: 0;
     font-family: "Inter", sans-serif;
     background-color: #1F2937;
+    color:#D5D4D8 ;
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
+    min-width: 350px;
+    padding-top: 2.5rem;
+    /* margin: 0 1rem; */
+}
+
+#color{
+    background-color: #D5D4D8;
+}
+.allinputs{
+    height: 2.75rem;
+    font-family: inherit;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scheme{
+    margin: 0 0.3rem;
+    background-color: #1F2937;
+    color:#D5D4D8 ;
+}
+
+button{
+    background-color: #3D4B60;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.colors-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.each-color{
+    height: 16rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+p{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    margin-top: 0.3rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
 }
